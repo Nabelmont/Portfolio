@@ -3,12 +3,13 @@
   background-color: transparent;
   border: none;
 }
-/*Background Styles*/
-.bkg-img {
-  width: 100%;
-  height: 100vh;
+
+.name {
+  font-size: 2em;
 }
-/*Jumbotron Styles*/
-.main-pgjumbo {
-  align-self: center;
+/*Background Styles*/
+.web-bkg {
+  height: 550px;
+  background-size: cover;
+  background-position: center;
 }
