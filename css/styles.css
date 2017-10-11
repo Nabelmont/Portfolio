@@ -1,0 +1,40 @@
+/*Universals*/
+.white-text {
+  background-color: #fff;
+}
+
+.blk-bkg {
+  background-color: #000;
+}
+/*Navbar*/
+.navbar-inverse {
+  background-color: transparent;
+  border: none;
+}
+
+.name {
+  font-size: 2em;
+}
+/*Background Styles*/
+.web-bkg {
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+}
+/*About Styles*/
+.about-title-hr {
+  height: 5px;
+  width: 12em;
+  background-color: #000;
+}
+/*Work Styles*/
+.work-title-hr {
+  height: 5px;
+  width: 12em;
+  background-color: #000;
+}
+
+.wakeskate-caption {
+  font-size: 1em;
+  font-style: italic;
+}
