@@ -30,10 +30,10 @@
           <li class="name"><a href="#">Noah Belmont</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-	        <li class="active"><a href="index.html">Home</a></li>
+	        <li class="active"><a class="scroll-home" href="index.html #home">Home</a></li>
           <li><a class="scroll-about" href="#about">About Me</a></li>
           <li><a class="scroll-work" href="#work">Work</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a class="scroll-contact" href="#contact">Contact</a></li>
 					<li><a href="#"></a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
@@ -42,7 +42,7 @@
   <!-- Navbar Ends -->
   <div class="container-fluid web-bkg">
     <div class="row">
-      <img class="bkg-img img-responsive" src="img/Willow-station.jpg" alt="computer on desk">
+      <img id="home" class="bkg-img img-responsive" src="img/Willow-station.jpg" alt="computer on desk">
     </div>
     <div class="row">
       <div class="col-md-4 col-md-offset-4">
@@ -67,6 +67,11 @@
             Etiam sit amet tortor et elit venenatis iaculis ut vitae urna. Quisque feugiat ornare ornare. Maecenas ut diam est. Nullam elementum gravida massa, sit amet varius est. Sed in sollicitudin velit. Nullam viverra massa id ante posuere elementum. Phasellus accumsan congue dolor. Morbi ante libero, pharetra ut lobortis pharetra, interdum ac quam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit nunc sed erat congue laoreet. Duis sollicitudin nulla eget tortor vestibulum convallis. Etiam tellus mauris, molestie vitae feugiat a, sollicitudin ac purus. Etiam id turpis leo. Curabitur iaculis nulla vitae sapien tempor egestas. Cras ornare, felis a facilisis congue, ligula diam posuere ipsum, nec consequat elit turpis vel turpis. Maecenas sapien justo, iaculis non ex at, sagittis vulputate enim. Ut eleifend justo lacinia mollis pulvinar. Donec porttitor sodales tortor faucibus cursus.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit nunc sed erat congue laoreet. Duis sollicitudin nulla eget tortor vestibulum convallis. Etiam tellus mauris, molestie vitae feugiat a, sollicitudin ac purus. Etiam id turpis leo. Curabitur iaculis nulla vitae sapien tempor egestas. Cras ornare, felis a facilisis congue, ligula diam posuere ipsum, nec consequat elit turpis vel turpis. Maecenas sapien justo, iaculis non ex at, sagittis vulputate enim. Ut eleifend justo lacinia mollis pulvinar. Donec porttitor sodales tortor faucibus cursus.
             Integer lobortis porta blandit. Phasellus lacinia lorem varius, congue nibh maximus, faucibus tellus. Maecenas egestas varius lectus, malesuada volutpat nisi porta vel. Integer a nisl eu leo maximus aliquet. Nam egestas libero in lectus commodo, id dignissim felis maximus. Integer consequat dictum quam et pharetra. Curabitur porta placerat eros vel imperdiet. Ut blandit elit a fermentum commodo. Sed semper in lectus ut cursus. Vestibulum ullamcorper dolor vitae urna convallis, a sagittis libero congue. Phasellus cursus ligula magna, non tempor ante tincidunt sed. Morbi porttitor in massa euismod accumsan. Mauris cursus diam non scelerisque sagittis. Nunc rhoncus consectetur eleifend. Mauris mi erat, tempus pellentesque urna a, congue auctor quam. Praesent sit amet purus eget nunc bibendum dictum.</p>
+          <h4><b>Languages:</b></h4>
+            <div id="code-lang">
+              <i id="css-icon" class="fa fa-css3 fa-3x" aria-hidden="true"></i>
+              <i id="html-icon" class="fa fa-html5 fa-3x" aria-hidden="true"></i>
+            </div>
         </div>
     </div>
     <div class="row">
@@ -87,9 +92,9 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img href="../Wakeskate-Final-Project-Website/index.html" src="img/Wakeskate-Project-Screenchot.png" alt="Wakeskate screenshot">
+          <img src="img/Wakeskate-Project-Screenchot.png" alt="Wakeskate screenshot">
           <div class="carousel-caption Wakeskate-caption">
-            Wakeskate Video Website
+            <h2 class="slide-video-website black-text">Video Website</h4>
           </div>
         </div>
       </div>
@@ -105,6 +110,21 @@
       </a>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4">
+      <h1 class="text-center" id="contact">Contact</h1>
+      <hr class="contact-title-hr">
+    </div>
+  </div>
+  <div class="row contact-row">
+    <div class="col-md-4 col-md-offset-4 text-center">
+      <div id="Social-Media">
+        <a href="#"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+        <a href="https://github.com/Nabelmont"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
 
 
   <!-- Scripts -->
@@ -116,6 +136,24 @@
       $('.scroll-about').click( function() {
        $('html, body').animate({
             scrollTop: $('#about').offset().top
+       }, 2000);
+      });
+
+      $('.scroll-work').click( function() {
+       $('html, body').animate({
+            scrollTop: $('#work').offset().top
+       }, 2000);
+      });
+
+      $('.scroll-contact').click( function() {
+       $('html, body').animate({
+            scrollTop: $('#contact').offset().top
+       }, 2000);
+      });
+
+      $('.scroll-home').click( function() {
+       $('html, body').animate({
+            scrollTop: $('#home').offset().top
        }, 2000);
       });
   });

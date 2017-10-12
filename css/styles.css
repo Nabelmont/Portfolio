@@ -1,11 +1,12 @@
 /*Universals*/
-.white-text {
-  background-color: #fff;
-}
-
-.blk-bkg {
+.black-bkg {
   background-color: #000;
 }
+
+.black-text {
+  color: #000;
+}
+
 /*Navbar*/
 .navbar-inverse {
   background-color: transparent;
@@ -15,17 +16,27 @@
 .name {
   font-size: 2em;
 }
+
 /*Background Styles*/
 .web-bkg {
   height: 550px;
   background-size: cover;
   background-position: center;
 }
+
 /*About Styles*/
 .about-title-hr {
   height: 5px;
   width: 12em;
   background-color: #000;
+}
+
+#css-icon {
+  color: #2077ff;
+}
+
+#html-icon {
+  color: #e54d27;
 }
 /*Work Styles*/
 .work-title-hr {
@@ -37,4 +48,25 @@
 .wakeskate-caption {
   font-size: 1em;
   font-style: italic;
+}
+
+.slide-video-website {
+  align-items: center;
+}
+
+/*Contact Styles*/
+.contact-title-hr {
+  height: 5px;
+  width: 12em;
+  background-color: #000;
+}
+
+.contact-box {
+  height: 150px;
+}
+
+#Social-Media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
