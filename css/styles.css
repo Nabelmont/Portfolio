@@ -17,6 +17,23 @@
   font-size: 2em;
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  background-color: #000;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  background-color: #000;
+}
+
+.navbar-right{
+  background-color: #000;
+}
+
+@media screen and (max-width: 767px) and (min-width: 397px) {
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        background-color: transparent;
+    }
+}
 /*Background Styles*/
 .web-bkg {
   height: 550px;
@@ -38,8 +55,15 @@
 #html-icon {
   color: #e54d27;
 }
+
+.edu-hr {
+  height: 2px;
+  width: 20%;
+  background-color: #000;
+
 /*Work Styles*/
-.work-title-hr {
+
+#work-title-hr {
   height: 5px;
   width: 12em;
   background-color: #000;
