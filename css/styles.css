@@ -94,3 +94,15 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+#linkedin {
+  background-color: #0077b5;
+}
+
+#facebook {
+  background-color: #3b5997;
+}
+
+#github {
+  background-color: #52287a;
+}
