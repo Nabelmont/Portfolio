@@ -56,12 +56,29 @@
   color: #e54d27;
 }
 
-.edu-hr {
-  height: 2px;
-  width: 20%;
+#purpose-hr {
+  height: 5px;
+  width: 7%;
   background-color: #000;
+}
 
-/*Work Styles*/
+#work-hr {
+  height: 5px;
+  width: 13%;
+  background-color: #000;
+}
+
+#edu-hr {
+  height: 5px;
+  width: 8%;
+  background-color: #000;
+}
+
+#lang-hr {
+  height: 5px;
+  width: 9%;
+  background-color: #000;
+}
 
 #work-title-hr {
   height: 5px;
@@ -96,13 +113,13 @@
 }
 
 #linkedin {
-  background-color: #0077b5;
+  color: #0077b5;
 }
 
 #facebook {
-  background-color: #3b5997;
+  color: #3b5997;
 }
 
 #github {
-  background-color: #52287a;
+  color: #52287a;
 }
