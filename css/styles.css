@@ -44,8 +44,9 @@
 /*About Styles*/
 .about-title-hr {
   height: 5px;
-  width: 12em;
+  width: 100%;
   background-color: #000;
+  
 }
 
 #css-icon {
@@ -105,4 +106,9 @@
 
 #github {
   background-color: #52287a;
+}
+
+bkg-img {
+  height: 80vh;
+width: 100%;
 }
