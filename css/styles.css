@@ -1,10 +1,10 @@
 /*Universals*/
 .black-bkg {
-  background-color: #000;
+  background-color: #414141;
 }
 
 .black-text {
-  color: #000;
+  color: #414141;
 }
 
 /*Navbar*/
@@ -18,15 +18,15 @@
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  background-color: #000;
+  background-color: #414141;
 }
 
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-  background-color: #000;
+  background-color: #414141;
 }
 
 .navbar-right{
-  background-color: #000;
+  background-color: #414141;
 }
 
 @media screen and (max-width: 767px) and (min-width: 397px) {
@@ -45,7 +45,7 @@
 .about-title-hr {
   height: 5px;
   width: 100%;
-  background-color: #000;
+  background-color: #414141;
 
 }
 
@@ -60,31 +60,31 @@
 #purpose-hr {
   height: 5px;
   width: 7%;
-  background-color: #000;
+  background-color: #414141;
 }
 
 #work-hr {
   height: 5px;
   width: 13%;
-  background-color: #000;
+  background-color: #414141;
 }
 
 #edu-hr {
   height: 5px;
   width: 8%;
-  background-color: #000;
+  background-color: #414141;
 }
 
 #lang-hr {
   height: 5px;
   width: 9%;
-  background-color: #000;
+  background-color: #414141;
 }
 
 #work-title-hr {
   height: 5px;
   width: 12em;
-  background-color: #000;
+  background-color: #414141;
 }
 
 .work-exp {
@@ -104,7 +104,7 @@
 .contact-title-hr {
   height: 5px;
   width: 23em;
-  background-color: #000;
+  background-color: #414141;
 }
 
 .contact-box {
