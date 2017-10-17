@@ -44,8 +44,9 @@
 /*About Styles*/
 .about-title-hr {
   height: 5px;
-  width: 12em;
+  width: 100%;
   background-color: #000;
+
 }
 
 #css-icon {
@@ -102,7 +103,7 @@
 /*Contact Styles*/
 .contact-title-hr {
   height: 5px;
-  width: 12em;
+  width: 23em;
   background-color: #000;
 }
 
@@ -126,4 +127,13 @@
 
 #github {
   color: #52287a;
+}
+
+#twitter {
+  color: #1ba1f1;
+}
+
+bkg-img {
+  height: 80vh;
+width: 100%;
 }
