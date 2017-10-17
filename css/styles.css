@@ -1,11 +1,12 @@
 /*Universals*/
-.white-text {
-  background-color: #fff;
+.black-bkg {
+  background-color: #414141;
 }
 
-.blk-bkg {
-  background-color: #000;
+.black-text {
+  color: #414141;
 }
+
 /*Navbar*/
 .navbar-inverse {
   background-color: transparent;
@@ -15,26 +16,129 @@
 .name {
   font-size: 2em;
 }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  background-color: #414141;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  background-color: #414141;
+}
+
+.navbar-right{
+  background-color: #414141;
+}
+
+@media screen and (max-width: 767px) and (min-width: 397px) {
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        background-color: transparent;
+    }
+}
 /*Background Styles*/
 .web-bkg {
   height: 550px;
   background-size: cover;
   background-position: center;
 }
+
 /*About Styles*/
 .about-title-hr {
   height: 5px;
-  width: 12em;
-  background-color: #000;
+  width: 100%;
+  background-color: #414141;
+  border-radius: 5px;
 }
-/*Work Styles*/
-.work-title-hr {
+
+#css-icon {
+  color: #2077ff;
+}
+
+#html-icon {
+  color: #e34f26;
+}
+
+#hr-style {
   height: 5px;
-  width: 12em;
-  background-color: #000;
+  background-color: #414141;
+  border-radius: 5px;
+}
+
+.purpose-hr {
+  width: 7%;
+}
+
+.work-hr {
+  width: 14%;
+}
+
+.edu-hr {
+  width: 8%;
+}
+
+.lang-hr {
+  width: 9%;
+}
+
+#work-title-hr {
+  height: 5px;
+  width: 100%;
+  background-color: #414141;
+  border-radius: 5px;
+}
+
+.work-exp {
+  width: 30%;
+  border-radius: 5px;
 }
 
 .wakeskate-caption {
   font-size: 1em;
   font-style: italic;
+}
+
+.slide-video-website {
+  align-items: center;
+}
+
+/*Contact Styles*/
+#contact-title-hr {
+  height: 5px;
+  width: 100%;
+  background-color: #414141;
+  border-radius: 5px;
+}
+
+.contact-box {
+  height: 150px;
+}
+
+#Social-Media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#linkedin {
+  color: #007bb6;
+}
+
+#facebook {
+  color: #3b5998;
+}
+
+#github {
+  color: #6e5494;
+}
+
+#twitter {
+  color: #00b6f1;
+}
+
+#footer {
+  border-radius: 5px;
+}
+
+bkg-img {
+  height: 80vh;
+width: 100%;
 }
