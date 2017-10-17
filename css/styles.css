@@ -86,6 +86,10 @@
   background-color: #000;
 }
 
+.work-exp {
+  width: 30%;
+}
+
 .wakeskate-caption {
   font-size: 1em;
   font-style: italic;
